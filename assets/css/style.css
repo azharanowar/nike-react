@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+:root {
+    --text-main-color: #FA804C;
+    --button-bg-color: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+.main-color {
+    color: var(--text-main-color);
+}
+
 body {
     font-family: "Montserrat";
 }
 
 .header-section {
     background-color: #FFF9F4;
+}
+
+.buy-now-btn {
+    background-image: var(--button-bg-color);
+}
+.shopping-cart-img {
+    width: 33px;
 }
