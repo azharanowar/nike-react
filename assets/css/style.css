@@ -20,6 +20,12 @@ body {
 .buy-now-btn {
     background-image: var(--button-bg-color);
 }
+
 .shopping-cart-img {
     width: 33px;
+}
+
+.product-img-box {
+    background-color: #F1F1F1;
+    height: 320px;
 }
